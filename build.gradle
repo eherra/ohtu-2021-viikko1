@@ -19,6 +19,13 @@ jar {
     }
 }
 
+jacocoTestReport {
+    reports {
+        xml.enabled true
+        html.enabled true
+    }
+}
+
 application {
     mainClass = 'ohtu.ohtuvarasto.Main'
 }
