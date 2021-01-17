@@ -31,7 +31,7 @@ public class VarastoTest {
         assertEquals(0.0, varastoMiinusTilavuudella.getTilavuus(), vertailuTarkkuus);
         
         Varasto varastoMiinusSaldolla = new Varasto(10, -2);
-        assertEquals(0.0, varastoMiinusSaldolla.getSaldo(), vertailuTarkkuus);
+        assertEquals(-2, varastoMiinusSaldolla.getSaldo(), vertailuTarkkuus);
         assertEquals(10, varastoMiinusSaldolla.getTilavuus(), vertailuTarkkuus);
         
         Varasto varastoMaxTilavuudella = new Varasto(5, 7);
