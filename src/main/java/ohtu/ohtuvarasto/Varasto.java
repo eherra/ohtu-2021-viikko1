@@ -14,7 +14,8 @@ public class Varasto {
     }
 
     public Varasto(double tilavuus, double alkuSaldo) { // kuormitetaan
-        if (tilavuus < 0.0) {
+        if (tilavuus < 0.0) 
+        {
             return;
         } 
 
